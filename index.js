@@ -103,7 +103,7 @@ function oyun(oyuncuTercihi, bilgisayarTercihi) {
   let sonuc;
 
   if (oyuncuTercihi === bilgisayarTercihi) {
-    sonuc = "Beraberlik!"
+    sonuc = "Beraberlik"
   } else if ((oyuncuTercihi === "Taş" && bilgisayarTercihi === "Makas") || (oyuncuTercihi === "Kağıt" && bilgisayarTercihi === "Taş") || (oyuncuTercihi === "Makas" && bilgisayarTercihi === "Kağıt")) {
     sonuc = "Kazandın!"
   } else { sonuc = "Kaybettin!"}
@@ -149,7 +149,7 @@ Aşağdaki milDonusturucu fonksiyonunu aşağıdakileri kullanarak tamamla:
 */
 
 function milDonusturucu(Kilometre) {
-  let Mil = Kilometre * 1.609344
+  let Mil = Kilometre * 0.621371
   return Mil;
 }
 console.log(milDonusturucu(5))
